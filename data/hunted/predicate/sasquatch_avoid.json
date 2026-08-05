@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "components": {
+      "minecraft:health": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "predicates": {}
+  }
+}

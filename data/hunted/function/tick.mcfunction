@@ -1,1 +1,1 @@
-execute as @a run function hunted:tick/entities
+execute as @e if dimension minecraft:overworld run function hunted:tick/entities

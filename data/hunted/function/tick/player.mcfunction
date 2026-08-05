@@ -1,0 +1,1 @@
+execute as @s[tag=hunter] run function hunted:tick/player/hunter

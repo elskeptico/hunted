@@ -1,0 +1,1 @@
+execute as @a[tag=sasquatch, distance=10] run function hunted:sasquatch/hurt
