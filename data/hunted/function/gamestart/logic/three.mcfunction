@@ -1,0 +1,3 @@
+execute as @a[limit=1, sort=random] run function hunted:gamestart/hunter
+execute as @a[limit=1, sort=random, tag=!hunter] run function hunted:gamestart/vampire
+execute as @a[limit=1, sort=random, tag=!hunter, tag=!monster] run function hunted:gamestart/werewolf

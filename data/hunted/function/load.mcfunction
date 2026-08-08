@@ -8,6 +8,7 @@ scoreboard objectives add six dummy
 scoreboard objectives add seven dummy
 scoreboard objectives add eight dummy
 scoreboard objectives add nine dummy
+scoreboard objectives add raycast dummy
 
 scoreboard players set #playercount playercount 0
 scoreboard players set #playercount one 1

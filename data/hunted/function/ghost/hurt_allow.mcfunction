@@ -1,0 +1,1 @@
+execute as @a[tag=ghost_unhurt] run tag @s remove ghost_unhurt

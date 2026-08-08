@@ -1,0 +1,1 @@
+execute as @a[tag=ghost, tag=!ghost_unhurt, distance=..3] run function hunted:ghost/hurt

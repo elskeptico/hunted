@@ -1,6 +1,6 @@
 execute as @a run function hunted:gamestart/each_player
 execute if score #playercount playercount = #playercount one run function hunted:gamestart/logic/one
-execute if score #playercount playercount = #playercount two run function hunted:gamestart/logic/two
+execute if score #playercount playercount = #playercount two run function hunted:gamestart/logic/one
 execute if score #playercount playercount = #playercount three run function hunted:gamestart/logic/three
 execute if score #playercount playercount = #playercount four run function hunted:gamestart/logic/four
 execute if score #playercount playercount = #playercount five run function hunted:gamestart/logic/five
