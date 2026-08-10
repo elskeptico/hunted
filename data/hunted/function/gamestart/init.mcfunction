@@ -1,4 +1,5 @@
 execute as @a run function hunted:gamestart/each_player
+tellraw @a "1"
 execute if score #playercount playercount = #playercount one run function hunted:gamestart/logic/one
 execute if score #playercount playercount = #playercount two run function hunted:gamestart/logic/one
 execute if score #playercount playercount = #playercount three run function hunted:gamestart/logic/three
