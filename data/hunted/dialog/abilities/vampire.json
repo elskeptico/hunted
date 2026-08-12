@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Vampire Abilities",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Very slow, but constant, regeneration"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Weakened by players holding cross nearby"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Attacks cause possibly deadly poison"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Poisoned by players with garlic nearby"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Is stronger when within 30-50 blocks of coffin"
+    }
+  ],
+  "can_close_with_escape": true,
+  "actions": [
+    {
+      "label": "Bat Transform",
+      "tooltip": "Transform into a bat or back",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger vampire.transform"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Ghost Abilities",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Always Invisible"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Can only be harmed by light from a hunter's flashlight"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Cannot heal"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Picked up on spectrogams"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Give weakness to hunters you're touching"
+    }
+  ],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": "Phasing",
+      "tooltip": "Use your semi-incorporeal body to pass through walls up to three inches thick",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ghost.phase"
+      }
+    },
+    {
+      "label": "Ghostly Audio",
+      "tooltip": "Play a terrifying sound that gives nearby hunters weakness"
+    }
+  ]
+}

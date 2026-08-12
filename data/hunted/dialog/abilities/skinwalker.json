@@ -1,0 +1,69 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Skinwalker Abilities",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Picked up on spectrograms (even while in animal form)"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Weakened by nearby players with cross"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Human form small and weak"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Animals cannot use tools"
+    }
+  ],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": "Wolf Transform",
+      "tooltip": "Transform into a wolf for 3 minutes (one-time use)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger skinwalker.wolf"
+      }
+    },
+    {
+      "label": "Horse Transform",
+      "tooltip": "Transform into a horse for 3 minutes (one-time use)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger skinwalker.horse"
+      }
+    },
+    {
+      "label": "Sheep Transform",
+      "tooltip": "Transform into a sheep for 3 minutes (one-time use)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger skinwalker.sheep"
+      }
+    },
+    {
+      "label": "Bee Transform",
+      "tooltip": "Transform into a sheep for 3 minutes (one-time use)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger skinwalker.bee"
+      }
+    },
+    {
+      "label": "Salmon Transform",
+      "tooltip": "Transform into a salmon for 3 minutes (one-time use)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger skinwalker.salmon"
+      }
+    }
+  ]
+}

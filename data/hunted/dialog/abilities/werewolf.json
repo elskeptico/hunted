@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Werewolf Abilities",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "High metabolism, must consistently eat sheep, pigs, etc."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "High speed and jump height"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Naturally high base attack damage"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Blinded by nearby players holding garlic"
+    }
+  ],
+  "can_close_with_escape": true,
+  "actions": [
+    {
+      "label": "Wolf Transform",
+      "tooltip": "Transform Into a wolf or back",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger werewolf.transform"
+      }
+    },
+    {
+      "label": "Werewolf Senses",
+      "tooltip": "Use your enhanced smell to sense enemies around you",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger werewolf.sense"
+      }
+    }
+  ]
+}
