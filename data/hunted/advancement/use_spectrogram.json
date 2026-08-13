@@ -1,3 +1,22 @@
 {
-    "criteria": {}
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:coal"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "hunted": "spectrogram"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunted:item/spectrogram/use"
+  }
 }

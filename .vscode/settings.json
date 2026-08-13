@@ -1,8 +1,6 @@
 {
     "mc-dp-icons.crownedFunctionsNames": [],
-    "mc-dp-icons.loadFunctionNames": [
-        "function/load"
-    ],
+    "mc-dp-icons.loadFunctionNames": [],
     "mc-dp-icons.tickFunctionNames": [
         "function/tick"
     ]

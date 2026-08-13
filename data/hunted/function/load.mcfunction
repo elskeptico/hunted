@@ -22,4 +22,9 @@ scoreboard players enable @a skinwalker.sheep
 scoreboard players enable @a skinwalker.bee
 scoreboard players enable @a skinwalker.salmon
 
+
+
+
+
+schedule function hunted:tick_2 2
 tellraw @a "Hunted Datapack Loaded!"
