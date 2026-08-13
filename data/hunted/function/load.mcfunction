@@ -10,16 +10,16 @@ scoreboard objectives add skinwalker.horse trigger
 scoreboard objectives add skinwalker.sheep trigger
 scoreboard objectives add skinwalker.bee trigger
 scoreboard objectives add skinwalker.salmon trigger
-scoreboard enable @a vampire.transform 
-scoreboard enable @a werewolf.transform 
-scoreboard enable @a werewolf.sense
-scoreboard enable @a ghost.phase 
-scoreboard enable @a ghost.noise 
-scoreboard enable @a sasquatch.sense
-scoreboard enable @a skinwalker.wolf
-scoreboard enable @a skinwalker.horse
-scoreboard enable @a skinwalker.sheep 
-scoreboard enable @a skinwalker.bee
-scoreboard enable @a skinwalker.salmon
+scoreboard players enable @s vampire.transform
+scoreboard players enable @a werewolf.transform 
+scoreboard players enable @a werewolf.sense
+scoreboard players enable @a ghost.phase 
+scoreboard players enable @a ghost.noise 
+scoreboard players enable @a sasquatch.sense
+scoreboard players enable @a skinwalker.wolf
+scoreboard players enable @a skinwalker.horse
+scoreboard players enable @a skinwalker.sheep 
+scoreboard players enable @a skinwalker.bee
+scoreboard players enable @a skinwalker.salmon
 
 tellraw @a "Hunted Datapack Loaded!"

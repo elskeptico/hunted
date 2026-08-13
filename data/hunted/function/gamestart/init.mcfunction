@@ -1,5 +1,4 @@
-execute store result score #count player_count run list players
-tellraw @a "1"
+execute store result score #count playercount run list uuids
 execute if score #count playercount matches ..2 run function hunted:gamestart/logic/one
 execute if score #count playercount matches 3 run function hunted:gamestart/logic/three
 execute if score #count playercount matches 4 run function hunted:gamestart/logic/four
