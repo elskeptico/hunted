@@ -1,7 +1,7 @@
 {
   "type": "minecraft:multi_action",
   "title": {
-    "text": "Skinwalker Abilities",
+    "text": "Changeling Abilities",
     "bold": true
   },
   "body": [
@@ -30,7 +30,7 @@
       "tooltip": "Transform into a wolf for 3 minutes (one-time use)",
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger skinwalker.wolf"
+        "command": "trigger changeling.wolf"
       }
     },
     {
@@ -38,7 +38,7 @@
       "tooltip": "Transform into a horse for 3 minutes (one-time use)",
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger skinwalker.horse"
+        "command": "trigger changeling.horse"
       }
     },
     {
@@ -46,7 +46,7 @@
       "tooltip": "Transform into a sheep for 3 minutes (one-time use)",
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger skinwalker.sheep"
+        "command": "trigger changeling.sheep"
       }
     },
     {
@@ -54,7 +54,7 @@
       "tooltip": "Transform into a sheep for 3 minutes (one-time use)",
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger skinwalker.bee"
+        "command": "trigger changeling.bee"
       }
     },
     {
@@ -62,7 +62,7 @@
       "tooltip": "Transform into a salmon for 3 minutes (one-time use)",
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger skinwalker.salmon"
+        "command": "trigger changeling.salmon"
       }
     }
   ]

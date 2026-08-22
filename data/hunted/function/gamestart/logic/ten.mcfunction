@@ -1,0 +1,1 @@
+tellraw @a "Unfortunately, this game currently only supports nine or less people. However, this project is actively updated, and support for 10+ people is planned for future updates - stay tuned!"

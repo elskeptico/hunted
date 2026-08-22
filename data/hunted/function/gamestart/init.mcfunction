@@ -7,3 +7,6 @@ execute if score #count playercount matches 6 run function hunted:gamestart/logi
 execute if score #count playercount matches 7 run function hunted:gamestart/logic/seven
 execute if score #count playercount matches 8 run function hunted:gamestart/logic/eight
 execute if score #count playercount matches 9 run function hunted:gamestart/logic/nine
+
+schedule function hunted:gamestart/release 1200
+schedule function hunted:gamestart/release 3600

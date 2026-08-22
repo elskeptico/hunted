@@ -8,12 +8,20 @@
     {
       "label": "Open Information",
       "tooltip": "Information about the game and your role",
-      "width": 400
+      "width": 400,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger info"
+      }
     },
     {
       "label": "Open Abilities",
       "tooltip": "Passive abilities, active abilities, and weaknesses",
-      "width": 400
+      "width": 400,
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger abilities"
+      }
     }
   ]
 }
