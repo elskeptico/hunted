@@ -1,0 +1,1 @@
+execute as @p[tag=decoyable, distance=..1] run function hunted:item/decoy/trapped

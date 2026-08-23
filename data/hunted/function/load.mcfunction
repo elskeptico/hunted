@@ -1,4 +1,5 @@
 scoreboard objectives add playercount dummy
+scoreboard objectives add trappedtime dummy
 scoreboard objectives add vampire.transform trigger
 scoreboard objectives add werewolf.transform trigger
 scoreboard objectives add werewolf.sense trigger

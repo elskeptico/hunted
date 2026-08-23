@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:item_frame",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "text": "Sheep Decoy",
+                                    "italic": false
+                                },
+                                "minecraft:item_model": "tutorial:red_emerald_block",
+                                "entity_data": {
+                                    "id": "minecraft:item_frame",
+                                    "Tags": [
+                                        "sheep_decoy"
+                                    ],
+                                    "Facing": 1,
+                                    "Invulnerable": true,
+                                    "Invisible": true,
+                                    "Fixed": true
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

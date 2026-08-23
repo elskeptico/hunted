@@ -1,1 +1,2 @@
-item modify entity @s weapon.mainhand {"function": "minecraft:set_components", "components": {"minecraft:item_model": "hunted:spectrogram_far"}}
+item modify entity @s weapon.mainhand {"function":"minecraft:set_components","components": {"minecraft:item_model":"hunted:spectrogram_far"}}
+title @s actionbar {text:"Detected specters within 30 blocks", color:"yellow"}

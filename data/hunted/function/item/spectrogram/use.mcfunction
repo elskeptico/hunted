@@ -1,4 +1,4 @@
-advancement revoke @s hunted:use_spectrogram
+advancement revoke @s only hunted:use_spectrogram
 
 tag @s add using_spectrogram
 execute as @a[tag=spectrogram, distance=..10] run function hunted:item/spectrogram/veryclose

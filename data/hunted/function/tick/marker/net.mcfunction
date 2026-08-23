@@ -1,0 +1,1 @@
+tp @p[tag=decoyable, distance=..1] ~ ~ ~

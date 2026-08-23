@@ -1,0 +1,1 @@
+execute as @a[tag=trapped, scores={trappedtime=..5}] at @s run function hunted:item/decoy/truerelease
