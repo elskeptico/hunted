@@ -1,0 +1,1 @@
+effect @s give poison 1 1

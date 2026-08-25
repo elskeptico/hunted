@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "hunted": "blood_chalice"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "right_click"
+    ]
+  ],
+  "rewards": {
+    "function": "hunted:blood_chalice/use"
+  }
+}

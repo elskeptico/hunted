@@ -1,0 +1,1 @@
+effect @s give blindness 1 1

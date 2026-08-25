@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "hunted:sasquatch_eye",
+                "minecraft:item_name": "Sasquatch Eye",
+                "minecraft:consumable": {
+                  "animation": "eat",
+                  "sound": "minecraft:entity.spider.ambient",
+                  "has_consume_particles": true,
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:poison",
+                          "amplifier": 1,
+                          "duration": 5
+                        }
+                      ]
+                    }
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "hunted": "sasquatch_eye"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": []
+    }
+  ]
+}

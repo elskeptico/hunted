@@ -1,1 +1,1 @@
-particle small_gust ~ ~ ~ 0 0 0 0 1 force @a[tag=sensing]
+execute as @e[type=!marker, tag=!ghost, type=!interaction, distance=..20] run effect @s give glowing 1 3
