@@ -1,0 +1,1 @@
+execute if predicate hunted:constant_hurt run function hunted:hurt

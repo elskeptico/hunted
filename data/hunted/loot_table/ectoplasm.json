@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:slime_ball",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "hunted:ectoplasm",
+                "minecraft:item_name": "Ectoplasm",
+                "minecraft:custom_data": {
+                  "hunted": "ectoplasm"
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:friction_modifier",
+                    "id": "hunted:set_friction",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:air_drag_modifier",
+                    "id": "hunted:set_drag",
+                    "amount": -1,
+                    "operation": "add_value",
+                    "slot": "offhand"
+                  },
+                  {
+                    "type": "minecraft:bounciness",
+                    "id": "hunted:set_bounce",
+                    "amount": 1,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:lore": [
+                  {
+                    "text": "Hold in main hand to become bouncy, hold in offhand to remove friction and air drag",
+                    "color": "red",
+                    "font": "minecraft:illageralt",
+                    "italic": false
+                  }
+                ]
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ],
+      "conditions": []
+    }
+  ]
+}

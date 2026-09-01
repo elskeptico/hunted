@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Hunter Abilities",
+    "bold": true
+  },
+  "body": [],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": "Sasquatch Senses",
+      "tooltip": "Use your Sasquatch DNA to sense entities around you (requires eating Sasquatch eye)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger hunter.sense"
+      }
+    }
+  ]
+}

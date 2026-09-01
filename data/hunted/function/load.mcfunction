@@ -1,5 +1,6 @@
 scoreboard objectives add playercount dummy
 scoreboard objectives add trappedtime dummy
+scoreboard objectives add deaths deathCount
 scoreboard objectives add vampire.transform trigger
 scoreboard objectives add werewolf.transform trigger
 scoreboard objectives add werewolf.sense trigger
@@ -22,10 +23,10 @@ scoreboard players enable @a changeling.horse
 scoreboard players enable @a changeling.sheep 
 scoreboard players enable @a changeling.bee
 scoreboard players enable @a changeling.salmon
+attribute @a block_break_speed base set 0
 
 
-
-
-
+gamerule immediate_respawn true
+gamerule keep_inventory true
 schedule function hunted:tick_2 2
 tellraw @a "Hunted Datapack Loaded!"

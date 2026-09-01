@@ -2,7 +2,6 @@ tag @s add werewolf
 tag @s add monster
 tag @s add garlic
 tag @s add decoyable
-attribute @s block_break_speed base set 0
 effect give @s night_vision infinite 1
 item replace entity @s armor.chest with netherite_chestplate[item_model="hunted:werewolf_head"]
 item replace entity @s armor.legs with netherite_leggings[item_model="hunted:werewolf_chest"]

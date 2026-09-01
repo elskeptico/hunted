@@ -1,0 +1,1 @@
+title @a actionbar {"text":"Monsters will be released in 1 minute", "color":"red"}

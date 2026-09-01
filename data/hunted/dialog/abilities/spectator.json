@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Sasquatch Abilities",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Large body"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Being near players damages you"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Bright light scares and confuses you"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "High metabolism, must consistently eat sheep, pigs, etc."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Thick hide provides natural armor"
+    },
+    {
+        "type": "minecraft:plain_message",
+        "contents": "High natural attack damage, but can also use weapons"
+    }
+  ],
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "actions": [
+    {
+      "label": "Hunter",
+      "tooltip": "Teleport to the nearest hunter",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger spectator.hunter"
+      }
+    },
+    {
+      "label": "Vampire",
+      "tooltip": "Teleport to the nearest vampire",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger spectator.vampire"
+      }
+    },
+    {
+      "label": "Werewolf",
+      "tooltip": "Teleport to the nearest werewolf",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger spectator.hunter"
+      }
+    },
+    {
+      "label": "Ghost",
+      "tooltip": "Teleport to the nearest ghost",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger spectator.ghost"
+      }
+    },
+    {
+      "label": "Sasquatch",
+      "tooltip": "Teleport to the nearest sasquatch",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger spectator.sasquatch"
+      }
+    },
+    {
+      "label": "Wendigo",
+      "tooltip": "Teleport to the nearest wendigo",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger spectator.wendigo"
+      }
+    },
+  ]
+}

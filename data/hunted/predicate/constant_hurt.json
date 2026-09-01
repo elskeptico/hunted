@@ -1,4 +1,23 @@
 {
-  "condition": "minecraft:random_chance",
-  "chance": 0.015
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:player",
+        "components": {
+          "minecraft:health": {
+            "min": 1,
+            "max": 40
+          }
+        },
+        "predicates": {}
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.05
+    }
+  ]
 }
