@@ -12,5 +12,5 @@ tag @s remove wendigo
 tag @s remove decoyable
 
 clear @s
-effect @s clear
-tp @r[type=player, tag=!spectator]
+effect clear @s
+tp @a[limit=1, sort=nearest, tag=!spectator]

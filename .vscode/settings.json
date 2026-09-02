@@ -1,8 +1,13 @@
 {
     "mc-dp-icons.crownedFunctionsNames": [],
-    "mc-dp-icons.loadFunctionNames": [],
+    "mc-dp-icons.loadFunctionNames": [
+        "function/load"
+    ],
     "mc-dp-icons.tickFunctionNames": [
         "function/tick",
         "sasquatch/sense"
+    ],
+    "mc-dp-icons.crownedTickFunctionsNames": [
+        "function/tick_2"
     ]
 }
