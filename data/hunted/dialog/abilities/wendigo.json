@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Wendigo Abilities",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "The Wendigo gets stronger with each death"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "After one death, you get faster and gain night vision."
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "After two, you get the ability to blind hunters"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "After three, you get larger and do more damage"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "After four, you gain the ability to summon skeleton reinforcements"
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "After five, you gain a jump height increase"
+    }
+  ],
+  "can_close_with_escape": true,
+  "actions": [
+    {
+      "label": "Blind Hunters",
+      "tooltip": "Blind Hunters around you (only usable after 2 deaths)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger wendigo.blind"
+      }
+    },
+    {
+      "label": "Reinforcements",
+      "tooltip": "Summon 2 skeletons with swords at the nearest hunter's location (only usable after 4 deaths)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger werewolf.sense"
+      }
+    }
+  ]
+}

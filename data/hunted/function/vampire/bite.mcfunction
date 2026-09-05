@@ -1,3 +1,3 @@
 advancement revoke @s only hunted:vampire_bite
 
-effect give @p[distance=..5] wither 30 1
+effect give @p[distance=..5, tag=!vampire] wither 30 1

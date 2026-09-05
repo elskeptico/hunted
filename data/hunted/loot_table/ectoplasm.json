@@ -37,6 +37,13 @@
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:safe_fall_distance",
+                    "id": "hunted:set_bounce",
+                    "amount": 100,
+                    "operation": "add_value",
+                    "slot": "mainhand"
                   }
                 ],
                 "minecraft:lore": [

@@ -1,1 +1,1 @@
-tp @s @p
+execute as @p run tp @p[tag=spectator] ^ ^1 ^

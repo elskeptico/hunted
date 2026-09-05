@@ -14,6 +14,7 @@
                 "minecraft:item_model": "hunted:sasquatch_eye",
                 "minecraft:item_name": "Sasquatch Eye",
                 "minecraft:consumable": {
+                  "consume_seconds": 0.5,
                   "animation": "eat",
                   "sound": "minecraft:entity.spider.ambient",
                   "has_consume_particles": true,
@@ -32,7 +33,16 @@
                 },
                 "minecraft:custom_data": {
                   "hunted": "sasquatch_eye"
-                }
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "The sasquatches have terrifyingly acute senses.",
+                    "italic": false
+                  },
+                  {
+                    "text": "And their eyes look delicious..."
+                  }
+                ]
               }
             }
           ]

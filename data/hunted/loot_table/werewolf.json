@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "hunted:werewolf_claws",
+                "minecraft:item_name": "Werewolf Claws",
+                "minecraft:custom_data": {
+                  "hunted": "werewolf_claws"
+                },
+                "minecraft:lore": [
+                  {
+                    "text": "The werewolves use these to terrifying effect.",
+                    "italic": false
+                  }
+                ],
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "hunted:set_speed",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": []
+    }
+  ]
+}

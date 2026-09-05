@@ -1,0 +1,1 @@
+effect give @a[tag=hunter, distance=..20] blindness 2 5

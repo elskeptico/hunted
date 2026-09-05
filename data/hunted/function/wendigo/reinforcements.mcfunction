@@ -1,0 +1,1 @@
+execute at @p[tag=hunter, distance=..20] run summon skeleton ~ ~ ~ {Tags:["reinforcement"]}
