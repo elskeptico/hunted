@@ -11,6 +11,7 @@ tag @s remove flashlight
 tag @s remove wendigo
 tag @s remove decoyable
 scoreboard players add #deaths deaths 1
+scoreboard players set @s deaths 0
 function hunted:death/wincheck/begin
 execute if score #count kills matches 1 run function wendigo:level/2
 execute if score #count kills matches 2 run function wendigo:level/3

@@ -1,2 +1,2 @@
-execute as @s[tag=werewolf] run function:werewolf/garlic
-execute as @s[tag=vampire] run function:vampire/garlic 
+execute as @s[tag=werewolf] run function hunted:werewolf/garlic
+execute as @s[tag=vampire] run function hunted:vampire/garlic

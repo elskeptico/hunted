@@ -4,11 +4,6 @@ execute as @a[scores={werewolf.sense=1..}] run function hunted:werewolf/sense
 execute as @a[scores={ghost.phase=1..}] run function hunted:ghost/phase
 execute as @a[scores={ghost.noise=1..}, tag=!noise_cooldown] run function hunted:ghost/noise
 execute as @a[scores={sasquatch.sense=1..}] run function hunted:sasquatch/sense
-execute as @a[scores={changeling.wolf=1..}] run function hunted:changeling/wolf
-execute as @a[scores={changeling.horse=1..}] run function hunted:changeling/horse
-execute as @a[scores={changeling.sheep=1..}] run function hunted:changeling/sheep
-execute as @a[scores={changeling.bee=1..}] run function hunted:changeling/bee
-execute as @a[scores={changeling.salmon=1..}] run function hunted:changeling/salmon
 execute as @a[scores={hunter.sense=1..}] run function hunted:sasquatch/sense
 execute as @a[scores={deaths=1..}] run function hunted:death/begin
 execute as @a[scores={spectator.hunter=1..}] run function hunted:spectator/hunter

@@ -1,1 +1,1 @@
-execute as @e[type=!marker, tag=!ghost, type=!interaction, distance=..40] run effect @s give glowing 1 3
+execute as @e[type=!marker, tag=!ghost, type=!interaction, distance=..40] run effect give @s glowing 1 3
