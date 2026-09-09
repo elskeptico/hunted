@@ -18,6 +18,7 @@ execute if score #count kills matches 2 run function wendigo:level/3
 execute if score #count kills matches 3 run function wendigo:level/4
 execute if score #count kills matches 4 run function wendigo:level/5
 execute if score #count kills matches 5 run function wendigo:level/6
+execute as @s[tag=monster] run function hunted:death/monster/check
 
 clear @s
 effect clear @s

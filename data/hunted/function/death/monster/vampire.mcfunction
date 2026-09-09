@@ -1,0 +1,1 @@
+loot spawn ~ ~ ~ loot hunted:blood_chalice

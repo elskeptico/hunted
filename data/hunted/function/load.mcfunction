@@ -6,30 +6,24 @@ scoreboard objectives add huntercount dummy
 scoreboard players set #count deaths 0
 scoreboard players set #count monstercount 0
 scoreboard players set #count huntercount 0
-scoreboard objectives add vampire.transform trigger
+scoreboard objectives add vampire.batswarm trigger
 scoreboard objectives add werewolf.transform trigger
 scoreboard objectives add werewolf.sense trigger
 scoreboard objectives add ghost.phase trigger
 scoreboard objectives add ghost.noise trigger
 scoreboard objectives add sasquatch.sense trigger
+scoreboard objectives add wendigo.blind
+scoreboard objectives add wendigo.reinforcement
 scoreboard objectives add spectator.hunter trigger
 scoreboard objectives add spectator.vampire trigger
 scoreboard objectives add spectator.werewolf trigger
 scoreboard objectives add spectator.ghost trigger
 scoreboard objectives add spectator.sasquatch trigger
 scoreboard objectives add spectator.wendigo trigger
-scoreboard players enable @s vampire.transform
-scoreboard players enable @a werewolf.transform 
-scoreboard players enable @a werewolf.sense
-scoreboard players enable @a ghost.phase 
-scoreboard players enable @a ghost.noise 
-scoreboard players enable @a sasquatch.sense
-scoreboard players enable @a spectator.hunter
-scoreboard players enable @a spectator.vampire
-scoreboard players enable @a spectator.werewolf 
-scoreboard players enable @a spectator.ghost
-scoreboard players enable @a spectator.sasquatch
-scoreboard players enable @a spectator.wendigo
+scoreboard objectives add info trigger
+scoreboard objectives add abilities trigger
+scoreboard players enable @a info
+scoreboard players enable @a abilities 
 execute as @a run attribute @s block_break_speed base set 0
 team add hunters "Hunters"
 team add monsters "Verbal Monsters"
@@ -37,7 +31,6 @@ team add ghost "Ghost"
 team add sasquatch "Sasquatch"
 team add vampire "Vampire"
 team add players "Players"
-
 
 gamerule immediate_respawn true
 gamerule keep_inventory true

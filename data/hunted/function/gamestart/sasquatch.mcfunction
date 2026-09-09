@@ -2,6 +2,7 @@ tag @s add sasquatch
 tag @s add monster
 tag @s add flashlight
 tag @s add decoyable
+scoreboard players enable @s sasquatch.sense
 effect give @s night_vision infinite 1
 attribute @s attack_damage base set 8
 attribute @s scale base set 1.75

@@ -2,6 +2,7 @@ tag @s add vampire
 tag @s add monster
 tag @s add cross
 tag @s add garlic
+scoreboard players enable @s vampire.batswarm
 attribute @s attack_speed base set 12
 attribute @s attack_damage base set 4
 effect give @s night_vision infinite 1

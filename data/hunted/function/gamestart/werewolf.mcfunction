@@ -2,6 +2,8 @@ tag @s add werewolf
 tag @s add monster
 tag @s add garlic
 tag @s add decoyable
+scoreboard players enable @s werewolf.transform
+scoreboard players enable @s werewolf.sense
 effect give @s night_vision infinite 1
 attribute @s scale base set 1.25
 tp @s @e[type=marker,tag=werewolf_trap,sort=random,limit=1]

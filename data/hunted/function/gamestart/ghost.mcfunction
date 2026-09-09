@@ -2,6 +2,8 @@ tag @s add ghost
 tag @s add monster
 tag @s add flashlight
 tag @s add spectrogram
+scoreboard players enable @s ghost.phase
+scoreboard players enable @s ghost.noise
 effect give @s night_vision infinite 1
 item replace entity @s armor.chest with netherite_chestplate[item_model="hunted:ghost_armor", minecraft:equippable={slot:"mainhand",asset_id:"hunted:ghosty_armor"}]
 item replace entity @s armor.legs with netherite_leggings[item_model="hunted:ghost_armor", minecraft:equippable={slot:"mainhand",asset_id:"hunted:ghosty_armor"}]

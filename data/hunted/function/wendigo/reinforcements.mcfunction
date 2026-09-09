@@ -1,1 +1,1 @@
-execute at @p[tag=hunter, distance=..20] run summon skeleton ~ ~ ~ {Tags:["reinforcement"]}
+execute at @p[tag=hunter, distance=..20] run summon skeleton ~ ~ ~ {Tags:["reinforcement"],equipment:{mainhand:{id:stone_sword},head:{id:chainmail_helmet}}}
