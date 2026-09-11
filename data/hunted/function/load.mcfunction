@@ -3,6 +3,7 @@ scoreboard objectives add trappedtime dummy
 scoreboard objectives add deaths dummy
 scoreboard objectives add monstercount dummy
 scoreboard objectives add huntercount dummy
+scoreboard objectives add raycast dummy
 scoreboard players set #count deaths 0
 scoreboard players set #count monstercount 0
 scoreboard players set #count huntercount 0
@@ -12,8 +13,8 @@ scoreboard objectives add werewolf.sense trigger
 scoreboard objectives add ghost.phase trigger
 scoreboard objectives add ghost.noise trigger
 scoreboard objectives add sasquatch.sense trigger
-scoreboard objectives add wendigo.blind
-scoreboard objectives add wendigo.reinforcement
+scoreboard objectives add wendigo.blind trigger
+scoreboard objectives add wendigo.reinforcement trigger
 scoreboard objectives add spectator.hunter trigger
 scoreboard objectives add spectator.vampire trigger
 scoreboard objectives add spectator.werewolf trigger
