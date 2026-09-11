@@ -3,7 +3,7 @@ tag @s add monster
 tag @s add cross
 tag @s add spectrogram
 scoreboard players enable @s wendigo.reinforcement
-scoreboard enable @s wendigo.blind
+scoreboard players enable @s wendigo.blind
 attribute @s block_break_speed base set 0
 title @s title {"text": "You are a WENDIGO", "color": "white"}
 title @s subtitle {"text": "You are too human to be trapped... for now...", "color": "white"}

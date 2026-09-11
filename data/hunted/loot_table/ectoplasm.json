@@ -34,14 +34,14 @@
                   {
                     "type": "minecraft:bounciness",
                     "id": "hunted:set_bounce",
-                    "amount": 1,
+                    "amount": 2,
                     "operation": "add_value",
                     "slot": "mainhand"
                   },
                   {
                     "type": "minecraft:safe_fall_distance",
                     "id": "hunted:set_bounce",
-                    "amount": 100,
+                    "amount": 1024,
                     "operation": "add_value",
                     "slot": "mainhand"
                   }
