@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 14,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bread",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "functions": []
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:salmon",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cod",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cooked_cod",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "egg",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "brown_egg",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blue_egg",
+          "weight": 10
+        }
+      ],
+      "conditions": []
+    }
+  ]
+}

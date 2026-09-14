@@ -1,5 +1,4 @@
 {
-    "values": [
-        "hunted:load"
-    ]
+	"replace": false,
+	"values": ["animated_java:global/on_load", "hunted:load"]
 }

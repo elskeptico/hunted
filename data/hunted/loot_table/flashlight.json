@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "Flashlight",
+                "minecraft:item_model": "hunted:flashlight"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

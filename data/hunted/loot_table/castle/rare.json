@@ -1,0 +1,110 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 14,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bread",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 500
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cooked_cod",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_spear",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_spear",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "hunted:flashlight",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_rabbit",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "hunted:flashlight",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "hunted:rifle",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "hunted:silver_bullet",
+          "weight": 40
+        }
+      ],
+      "conditions": []
+    }
+  ]
+}

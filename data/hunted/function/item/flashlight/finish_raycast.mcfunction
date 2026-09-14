@@ -1,2 +1,2 @@
-summon marker ~ ~ ~ {Tags:[light]}
+summon marker ~ ~ ~ {Tags:["light"]}
 setblock ~ ~ ~ minecraft:light

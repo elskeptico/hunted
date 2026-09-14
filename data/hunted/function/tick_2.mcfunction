@@ -13,4 +13,5 @@ execute as @a[scores={spectator.ghost=1..}] run function hunted:spectator/ghost
 execute as @a[scores={spectator.sasquatch=1..}] run function hunted:spectator/sasquatch
 execute as @a[scores={spectator.wendigo=1..}] run function hunted:spectator/wendigo
 
+
 schedule function hunted:tick_2 2

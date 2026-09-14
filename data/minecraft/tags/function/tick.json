@@ -1,5 +1,4 @@
 {
-    "values": [
-        "hunted:tick"
-    ]
+	"replace": false,
+	"values": ["hunted:tick", "animated_java:global/on_tick"]
 }
