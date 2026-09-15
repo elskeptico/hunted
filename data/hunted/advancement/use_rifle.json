@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:iron_ingot"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "hunted": "hunting_rifle"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "hunted:item/rifle"
+  }
+}
