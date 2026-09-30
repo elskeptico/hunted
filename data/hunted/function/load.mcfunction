@@ -4,11 +4,11 @@ scoreboard objectives add deaths dummy
 scoreboard objectives add monstercount dummy
 scoreboard objectives add huntercount dummy
 scoreboard objectives add raycast dummy
+scoreboard objectives add gametime dummy
 scoreboard players set #count deaths 0
 scoreboard players set #count monstercount 0
 scoreboard players set #count huntercount 0
-scoreboard objectives add vampire.batswarm trigger
-scoreboard objectives add werewolf.transform trigger
+scoreboard objectives add werewolf.teleport trigger
 scoreboard objectives add werewolf.sense trigger
 scoreboard objectives add ghost.phase trigger
 scoreboard objectives add ghost.noise trigger
