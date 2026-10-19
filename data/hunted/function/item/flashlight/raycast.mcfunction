@@ -1,7 +1,7 @@
 scoreboard players remove .flashlight raycast 1
 
 tellraw @a "oh yeahh"
-particle ash ~ ~ ~
+particle flame ~ ~ ~
 
 execute unless block ^ ^ ^.1 #minecraft:air run return run function hunted:item/flashlight/finish_raycast
 execute if score .flashlight raycast matches 0 run return run function hunted:item/flashlight/finish_raycast
