@@ -1,1 +1,0 @@
-execute as @p[tag=hunter, tag=!justswarmed, distance=..20] at @s run summon marker ~ ~5 ~ {Tags:["swarm"]} 

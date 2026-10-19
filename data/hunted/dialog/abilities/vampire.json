@@ -29,11 +29,11 @@
   "can_close_with_escape": true,
   "actions": [
     {
-      "label": "Bat Transform",
-      "tooltip": "Transform into a bat or back",
+      "label": "Return to Coffin",
+      "tooltip": "Dissolve into mist and instantly return to your coffin, but be trapped for 15 seconds",
       "action": {
         "type": "minecraft:run_command",
-        "command": "trigger vampire.transform"
+        "command": "trigger vampire.teleport"
       }
     }
   ]
