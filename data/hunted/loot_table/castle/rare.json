@@ -54,8 +54,13 @@
           "weight": 5
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "hunted:flashlight",
+          "type": "minecraft:item",
+          "value": "minecraft:torch",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "value": "minecraft:lantern",
           "weight": 1
         },
         {
@@ -87,11 +92,6 @@
           "type": "minecraft:item",
           "name": "minecraft:cake",
           "weight": 1
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "hunted:flashlight",
-          "weight": 10
         },
         {
           "type": "minecraft:loot_table",

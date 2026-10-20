@@ -1,1 +1,0 @@
-execute as @e[type=marker, tag=light] run function hunted:item/flashlight/remove_light
