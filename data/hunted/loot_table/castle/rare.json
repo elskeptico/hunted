@@ -55,12 +55,12 @@
         },
         {
           "type": "minecraft:item",
-          "value": "minecraft:torch",
+          "name": "minecraft:torch",
           "weight": 1
         },
         {
           "type": "minecraft:item",
-          "value": "minecraft:lantern",
+          "name": "minecraft:lantern",
           "weight": 1
         },
         {
@@ -103,8 +103,7 @@
           "value": "hunted:silver_bullet",
           "weight": 40
         }
-      ],
-      "conditions": []
+      ]
     }
   ]
 }
