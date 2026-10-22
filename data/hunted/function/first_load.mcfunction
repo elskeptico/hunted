@@ -1,1 +1,1 @@
-place template hunted:gameboard ~-250 ~ ~-250
+place template hunted:gameboard ~-150 ~100 ~-150

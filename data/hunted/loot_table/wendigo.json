@@ -19,7 +19,6 @@
                 "minecraft:lore": [
                   {
                     "text": "The more souls gone the closer your eldritch dawn",
-                    "font": "minecraft:illageralt",
                     "italic": false
                   }
                 ]

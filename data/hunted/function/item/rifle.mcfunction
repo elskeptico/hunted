@@ -1,3 +1,4 @@
+advancement revoke @s only hunted:use_rifle
 tag @s add rifleuser
 
 scoreboard players set .rifle raycast 1000

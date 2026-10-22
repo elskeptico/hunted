@@ -54,11 +54,6 @@
           "weight": 3
         },
         {
-          "type": "minecraft:loot_table",
-          "value": "hunted:flashlight",
-          "weight": 1
-        },
-        {
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef",
           "weight": 15
@@ -88,8 +83,7 @@
           "name": "minecraft:cake",
           "weight": 1
         }
-      ],
-      "conditions": []
+      ]
     }
   ]
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "hunted:silver_bullet",
+                "minecraft:item_name": "Silver Bullet",
+                "minecraft:custom_data": {
+                  "hunted": "silver_bullet"
+                }
+              },
+              "conditions": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -30,8 +30,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:rotten_flesh",
-          "functions": []
+          "name": "minecraft:rotten_flesh"
         },
         {
           "type": "minecraft:item",
@@ -73,8 +72,7 @@
           "name": "minecraft:blue_egg",
           "weight": 10
         }
-      ],
-      "conditions": []
+      ]
     }
   ]
 }
