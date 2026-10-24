@@ -1,1 +1,0 @@
-tp @s @p[tag=hunter]

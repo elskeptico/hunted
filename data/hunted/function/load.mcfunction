@@ -5,6 +5,8 @@ scoreboard objectives add monstercount dummy
 scoreboard objectives add huntercount dummy
 scoreboard objectives add raycast dummy
 scoreboard objectives add gametime dummy
+scoreboard objectives add two dummy
+scoreboard players set #count two 2
 scoreboard players set #count deaths 0
 scoreboard players set #count monstercount 0
 scoreboard players set #count huntercount 0
@@ -32,6 +34,7 @@ team add ghost "Ghost"
 team add sasquatch "Sasquatch"
 team add vampire "Vampire"
 team add players "Players"
+team add spectators "Spectators"
 
 gamerule immediate_respawn true
 gamerule keep_inventory true

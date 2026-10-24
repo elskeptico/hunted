@@ -6,12 +6,6 @@ execute as @a[scores={ghost.noise=1..}, tag=!noise_cooldown] run function hunted
 execute as @a[scores={sasquatch.sense=1..}] run function hunted:sasquatch/sense
 execute as @a[scores={hunter.sense=1..}] run function hunted:sasquatch/sense
 execute as @a[scores={deaths=1..}] run function hunted:death/begin
-execute as @a[scores={spectator.hunter=1..}] run function hunted:spectator/hunter
-execute as @a[scores={spectator.vampire=1..}] run function hunted:spectator/vampire
-execute as @a[scores={spectator.werewolf=1..}] run function hunted:spectator/werewolf
-execute as @a[scores={spectator.ghost=1..}] run function hunted:spectator/ghost
-execute as @a[scores={spectator.sasquatch=1..}] run function hunted:spectator/sasquatch
-execute as @a[scores={spectator.wendigo=1..}] run function hunted:spectator/wendigo
 execute store result score #current gametime run time query gametime
 
 schedule function hunted:tick_2 2

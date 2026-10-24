@@ -1,3 +1,13 @@
+scoreboard players add #deaths deaths 1
+scoreboard players set @s deaths 0
+function hunted:death/wincheck/begin
+execute if score #count kills matches 1 run function wendigo:level/2
+execute if score #count kills matches 2 run function wendigo:level/3
+execute if score #count kills matches 3 run function wendigo:level/4
+execute if score #count kills matches 4 run function wendigo:level/5
+execute if score #count kills matches 5 run function wendigo:level/6
+execute as @s[tag=monster] run function hunted:death/monster/check
+
 tag @s add spectator
 tag @s remove monster
 tag @s remove hunter
@@ -10,16 +20,8 @@ tag @s remove sasquatch
 tag @s remove flashlight
 tag @s remove wendigo
 tag @s remove decoyable
-scoreboard players add #deaths deaths 1
-scoreboard players set @s deaths 0
-function hunted:death/wincheck/begin
-execute if score #count kills matches 1 run function wendigo:level/2
-execute if score #count kills matches 2 run function wendigo:level/3
-execute if score #count kills matches 3 run function wendigo:level/4
-execute if score #count kills matches 4 run function wendigo:level/5
-execute if score #count kills matches 5 run function wendigo:level/6
-execute as @s[tag=monster] run function hunted:death/monster/check
-
 clear @s
 effect clear @s
+team join @s spectators
+function hunted:death/teleport
 tp @a[limit=1, sort=nearest, tag=!spectator]
